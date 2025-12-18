@@ -1,0 +1,30 @@
+# Build
+.gradle/
+build/
+**/build/
+**/bin/
+out/
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment / secrets (do not commit)
+.env
+.env.local
+.env.*.local
+*.env
+
